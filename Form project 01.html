@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAEC REGISTRATION FORM</title>
+
+    <style>
+
+    body{margin: 150px; margin-top: 50px; background-image: url(./yellow-dominating-color-background-free-vector.jpg); background-repeat: no-repeat; background-size: cover; border: 5px solid; padding: 0px 50px 0px 50px}
+
+    h1{text-transform: uppercase; font-family:'Times New Roman', Times, serif; font-size: 60px; text-align:center; text-shadow: 1px 1px black; color: darkblue;} 
+
+    img{float: left; width: 250px; height: 250px; border: darkgoldenrod; border-width: 30px;}
+
+    p{text-align: center;}
+
+    h2{text-transform: uppercase; color: black; text-align: center; font-size: 35px;}
+
+    table{empty-cells: hide; border-spacing: 150px 20px;}
+
+    th{text-align: left; text-decoration: underline;}
+
+    h3{text-align: center;}
+
+    h4{text-align: left;}
+
+    </style>
+
+</head>
+<body>
+    <img src="./SUCCESS_COLLEGE_LOGO-removebg-preview.png">
+
+    <h1><b>Success College</b></h1>
+
+    <p><b>5, Alabi Oluwole Street, Omolara Bus-Stop, Oduwole, Ogun State<br>
+    Contact: 0801-234-5678, 0802-345-6789<br>
+    Email: successcollege@gmail.com<br>
+    Motto: Uniqueness is the goal</b><br><br></p>
+
+    <hr>
+
+    <h2> <marquee>WAEC REGISTRATION FORM </marquee> </h2>
+
+    <h3><b>Kindly fill in candidate's information in block letters</b></h3>
+
+    <hr>
+        
+        <form action="Form project 02.html">
+        <table>
+        <b>Name:</b>
+            <tr>
+            <td><label for="firstname"><b>First Name</b></label></td>
+            <td><label for="middlename"><b>Middle Name</b></label></td>
+            <td><label for="lastname"><b>Last Name</b></label></td>
+            </tr>
+
+            <tr>
+                <td><input type="text" name="firstname" id="firstname" required></td>
+                <td><input type="text" name="middlename" id="middlename" required></td>
+                <td><input type="text" name="lastname" id="lastname" required></td>
+            </tr>
+        </table> <br><br>
+
+        <table>
+            <b>Date of Birth:</b>
+            <tr>
+                <td><label for="day"><b>Day</b></label></td>
+                <td><label for="month"><b>Month</b></label></td>
+                <td><label for="year"><b>Year</b></label></td>
+            </tr>
+
+            <tr>
+                <td> <select name="day" id="Day"  name="day" required >
+                     <Option value="01">01</Option>
+                     <Option value="02">02</Option>
+                     <Option value="03">03</Option>
+                     <Option value="04">04</Option>
+                     <Option value="05">05</Option>
+                     <Option value="06">06</Option>
+                     <Option value="07">07</Option>
+                     <Option value="08">08</Option>
+                     <Option value="09">09</Option>
+                     <Option value="10">10</Option>
+                     <Option value="11">11</Option>
+                     <Option value="12">12</Option>
+                     <Option value="13">13</Option>
+                     <Option value="14">14</Option>
+                     <Option value="15">15</Option>
+                     <Option value="16">16</Option>
+                     <Option value="17">17</Option>
+                     <Option value="18">18</Option>
+                     <Option value="19">19</Option>
+                     <Option value="20">20</Option>
+                     <Option value="21">21</Option>
+                     <Option value="22">22</Option>
+                     <Option value="23">23</Option>
+                     <Option value="24">24</Option>
+                     <Option value="25">25</Option>
+                     <Option value="26">26</Option>
+                     <Option value="27">27</Option>
+                     <Option value="28">28</Option>
+                     <Option value="29">29</Option>
+                     <Option value="30">30</Option>
+                     <Option value="31">31</Option>
+                </td>
+                <td>
+                    <select name="month" id="month"  name="month" required >
+                        <Option value="January">January</Option>
+                       <Option value="February">February</Option>
+                       <Option value="March">March</Option>
+                       <Option value="April">April</Option>
+                       <Option value="May">May</Option>
+                       <Option value="June">June</Option>
+                       <Option value="July">July</Option>
+                       <Option value="August">August</Option>
+                       <Option value="September">September</Option>
+                       <Option value="October">October</Option>
+                       <Option value="November">November</Option>
+                       <Option value="December">December</Option>
+                </td>
+                <td>
+                    <select name="year" id="year"  name="year" required>
+                        <option value="2000">2000</option>
+                        <Option value="2001">2001</Option>
+                        <Option value="2002">2002</Option>
+                        <Option value="2003">2003</Option>
+                        <Option value="2004">2004</Option>
+                        <Option value="2005">2005</Option>
+                        <Option value="2006">2006</Option>
+                        <Option value="2007">2007</Option>
+                        <Option value="2008">2008</Option>
+                        <Option value="2009">2009</Option>
+                        <Option value="2010">2010</Option>
+                </td>
+            </tr>
+        </table><br><br>
+
+    <b>Age(18 - 60):</b>   
+        <table>
+            <td>
+               <input type="number" name="age" id="age" min="18" max="60" required> 
+            </td>
+        </table><br><br>
+        
+    <b>Gender:</b><br><br>
+           
+        <table>
+                <td><input type="radio" id="male" name="gender">
+                <label>Male</label></td>
+
+                <td><input type="radio" id="female" name="gender" >
+                <label>Female</label></td>
+
+                <td><input type="radio" id="prefernottosay" name="gender" >
+                    <label>Prefer not to say</label></td>
+        </table><br><br>
+
+    
+    <b>NIN:</b>
+        <table>
+                <td><label for="NIN"></label>
+                <input type="text"  required></input></td>
+        </table><br><br>
+
+    <b>E-mail:</b>
+        <table>
+                <td><label for="E-mail" ></label>
+                <input type="E-mail" name="E-mail" id="E-mail" value="..................@gmail.com" required></td>
+        </table><br><br>
+
+        <b>Password:</b>
+        <table>
+            <td>
+                <label for="Password"></label>
+                <input type="password" name="password" id="password" placeholder="Type your password" required>
+            </td>
+        </table><br><br>
+
+        <b>Last Academic Result:</b>
+        <table>
+            <td>
+                <label for="lastacademicresult"></label>
+                <input type="file">
+            </td>
+        </table>
+
+        <b>Additional Comment:</b>
+        <table>
+            <td>
+                <label for="Additional"><b></b></label>
+                <textarea name="comment" id="comment"  cols="40" rows="10" ></textarea>
+            
+            </td>
+        </table><br><br>
+
+        <a href="./Form project 02.html"> Click to select subject</a><br><br><br><br>
+       
+        <input type="checkbox" id="Confirm" name="Confirm">
+    <label for="Confirm">I agree that all information filled above is for the candidate. Any wrong information would have great effect on the candidate's registration.  </label><br><br><br>
+   
+
+    <b>Date of registration:</b>
+    <table>
+        <tr>
+            <td><b>Date</b></td>
+            <td><b>Time</b></td>
+        </tr>
+
+        <tr>
+            <td><input type="date"></td>
+            <td><input type="time"></td>
+        </tr>
+    </table><br><br><br><br>
+
+    <!-- <input type="color">Color</INPUT:color> -->
+
+    <button type="submit">submit</button><br><br>
+
+
+      <!-- <label for="search">Search</label>
+    <input type="search" id="search" name="search"> -->
+
+    <!-- <label for="url">url</label>
+    <input type="url" id="url" name="url"> -->
+
+        
+                
+            
+    </form>
+   
+    
+</body>
+</html>
